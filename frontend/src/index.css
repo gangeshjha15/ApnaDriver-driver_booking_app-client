@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+      @apply box-border;
+    } 
+    
+  }
+@layer base {
+  h1 {
+    @apply text-lg;
+    @apply xsm:text-xl;
+    @apply sm:text-2xl;
+    @apply md:text-3xl;
+    @apply lg:text-4xl;
+
+  }
+  h2 {
+    @apply text-base;
+    @apply xsm:text-lg;
+    @apply sm:text-xl;
+    @apply md:text-2xl;
+    @apply lg:text-3xl;
+  }
+  h3 {
+    @apply text-sm;
+    @apply xsm:text-base;
+    @apply sm:text-lg;
+  }
+  h4 {
+
+    @apply text-xs;
+    @apply xsm:text-sm;
+    @apply sm:text-base;
+  }
+
+
+  }
+
+
